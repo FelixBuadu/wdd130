@@ -1,0 +1,50 @@
+ul,
+li {
+    color: blue;
+}
+
+
+section{
+    margin: 1rem;
+    border: 2px solid navy;
+    padding: 0.75rem
+}
+
+body {
+    background-color: rgb(104, 139, 153);
+    color: rgb(31, 39, 24);
+    height: auto;
+}
+
+header,
+footer {
+    background-color: rgb(133, 141, 86);
+    grid-template-columns: 1fr 1fr;
+    display: blockgrid;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    color: rgb(150, 91, 150);
+}
+
+header,
+main,
+footer {
+    max-width: 800px;
+    margin: 1rem auto;
+}
+
+section.logo {
+    margin: irem auto;
+    max-width: 960;
+}
+
+p, h1, h2{
+    font-family: sans-serif;
+}
+
+img{
+    float: left;
+}
