@@ -44,7 +44,18 @@ section.logo {
 p, h1, h2{
     font-family: sans-serif;
 }
+nav {
+    font: sans-serif;
+    margin: 1rem;
+    float: inline-start;
+}
 
-img{
+section.real{
     float: left;
+    margin: 1rem;
+}
+img{
+    box-shadow: 0 0 2rem rgb(221, 227, 228);
+    padding: 0.5rem;
+    border: 1px solid rgb(102, 151, 153);
 }
