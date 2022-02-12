@@ -59,3 +59,8 @@ img{
     padding: 0.5rem;
     border: 1px solid rgb(102, 151, 153);
 }
+
+content1 {
+    display: grid;
+    grid
+}
