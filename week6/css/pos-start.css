@@ -35,41 +35,40 @@
 .content2 {
   /* Activity Two Container */
   position: relative;
-  top: 40px;
-  left: 40px;
+  height: 500px;
 }
 .red2 {
   width: 200px;
   height: 200px;
   background-color: red;
-  position: relative;
-  nav-down: 100px;
-  right: 70px;
+  position: absolute;
+  right: 60px;
+  top: 50px;
+  left: 50px;
 }
 .green2 {
   width: 200px;
   height: 200px;
   background-color: green;
   position: absolute;
-  top: 50px;
-  left: 20px;
+  top: 100px;
+  left: 100px;
 }
 .yellow2 {
   width: 200px;
   height: 200px;
   background-color: gold;
   position: absolute;
-  top: 90px;
-  left: 90px;
+  top: 150px;
+  left: 150px;
 }
 .blue2 {
   width: 200px;
   height: 200px;
   background-color: blue;
   position: absolute;
-  top: 160px;
-  left: 160px;
-  z-index: 1;
+  top: 190px;
+  left: 190px;
 }
 
 /* Activity 3 Styles */
@@ -77,7 +76,7 @@
   /* Activity Three Container */
   display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-items: center;
+  justify-items: space;
   position: static;
   grid-row: 20%;
   
@@ -92,13 +91,13 @@
   width: 200px;
   height: 200px;
   background-color: green;
-  left: 50px;
+  top: 120px;
+  left: 120px;
 }
 .yellow3 {
   width: 200px;
   height: 200px;
   background-color: gold;
-  float: right;
 }
 .blue3 {
   width: 100%;
@@ -139,8 +138,7 @@
 /* Activity 5 Styles */
 .content5 {
   /* Activity Five Container */
-  height: 400px;
-  float: left;
+  height: 590px;
 }
 .red5 {
   width: 700%;
@@ -149,15 +147,14 @@
 }
 .green5 {
   width: 200px;
-  height: 100px;
+  height: 200px;
   background-color: green;
   float: left;
-  margin: 10px;
+  margin-right: 1rem;
 }
 .yellow5 {
-  width: 600px;
-  height: 310px;
   background-color: gold;
+  padding: 1rem;
 }
 .blue5 {
   width: 100%;
@@ -170,6 +167,7 @@
 .content6 {
   /* Activity Six Container */
   position: relative;
+  height: 500px;
   grid: 6px;
 }
 .red6 {
