@@ -1,3 +1,10 @@
+div.logo-box {
+    width: 10px;
+    height: 200px;
+    border: 20px;
+    box-shadow: 60px;
+}
+
 ul,
 li {
     color: blue;
@@ -12,6 +19,8 @@ body {
     background-color: rgb(104, 139, 153);
     color: rgb(31, 39, 24);
     height: auto;
+    box-sizing: content-box;
+    width: 100px;
 }
 
 header,
@@ -19,7 +28,10 @@ footer {
     background-color: rgb(133, 141, 86);
     display: blockgrid;
     align-items: center;
-    justify-content: center;
+    margin: 1rem auto;
+    display: grid;
+    border-bottom:1px solid white;
+    max-width: 1200px;
 }
 
 a {
@@ -29,6 +41,27 @@ a {
 header,
 main,
 footer {
-    max-width: 800px;
+    max-width: 600px;
     margin: 1rem auto;
+}
+h1,
+h2 {
+    box-shadow: 2px 2px 2px rgb(143, 93, 93);
+    text-align: center;
+    color: rgb(5, 27, 102);
+    border: solid rgb(20, 36, 20);
+    margin-left: 80px;
+    margin-right: 80px;
+    box-sizing: content-box;
+    background: white;
+}
+
+nav {
+    float: left;
+    margin: 1rem;
+}
+
+class.logo-box {
+    padding: 100px;
+    float: right;
 }
