@@ -1,9 +1,12 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 100px;
+    padding:100px;
 }
 
 body{
+    height: 400px;
+    padding-top: 80px;
+    margin-top: 80px;
     background-color: rgba(red, green, blue, alpha)
 }
 
@@ -14,4 +17,12 @@ header, footer {
 heas, main, footer{
     max-width: 800px;
     margin: 1rem auto;
+    height: 400px;
+    padding-top: 80px;
+    margin-top: 80px;
 }
+height: 400px;
+padding-top: 80px;
+margin-top: 80px;
+padding-left: 240px;
+padding-right: 240px;
