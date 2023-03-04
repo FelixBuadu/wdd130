@@ -221,3 +221,65 @@ footer .social img{
         margin-top: 25px;
     }
 }
+
+/*contact Us page */
+#hero-aside{
+    height: 100%;
+}
+#hero3-box{
+    margin-top: 0;
+}
+#hero3-img{
+    width: 100%;
+    height: 500px;
+}
+.hero-middle h3{
+    font-size: 4em;
+    text-align: center;
+    margin-top: -400px;
+    color: beige;
+    width: 100%;
+}
+h3 {
+    font-family: 'Patrick+Hand';
+}
+.hero-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    justify-self: center;
+    margin-top: 400px;
+}
+.msg-left h4, p{
+    margin: 10px;
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+.msg-left{
+    padding: 10px;
+    grid-column: 1/2;
+}
+.msg-right1{
+    grid-column: 2/3;
+    padding: 20px;
+}
+.msg-right2{
+    display: right;
+}
+/*Dates and Rates*/
+#hero-4{
+    height: 100%;
+}
+#hero4s img{
+    width: 100%;
+    height: 500px;
+}
+#hero4s h3{
+    font-size: 3em;
+    text-align: center;
+    color: blue;
+    margin-top: -300px;
+}
+.para{
+    padding: 200px;
+}
