@@ -163,11 +163,10 @@ footer .social img{
     height: 700px;
 }
 /*contact*/
-.hero-middle1{
-    margin-top: -600px;
-    font-size: 6em;
+.hero-middle1 h3{
+    margin-top: -400px;
+    font-size: 7em;
     font-family: Chewy;
-    color: #606c38;
 }
 #con{
     margin-top: 10px;
@@ -186,5 +185,5 @@ footer .social img{
 }
 #form{
     padding: 15px;
-    text-align: center;
+    text-align: left;
 }
