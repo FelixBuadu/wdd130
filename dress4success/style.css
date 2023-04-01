@@ -163,10 +163,17 @@ footer .social img{
     height: 700px;
 }
 /*contact*/
+.hero-middle1{
+    margin-top: -600px;
+    font-size: 6em;
+    font-family: Chewy;
+    color: #606c38;
+}
 #con{
     margin-top: 10px;
     display: block;
     font-size: 2em;
+    margin: 5px solid black;
 }
 #hero4-img{
     width: 100%;
