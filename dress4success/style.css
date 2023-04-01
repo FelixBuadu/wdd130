@@ -4,7 +4,7 @@
     margin: 0 auto;
     text-align: center;
     background-color: #fefae0;
-    height: 1800px;
+    height: 1900px;
 }
 header{
     display: grid;
@@ -85,10 +85,10 @@ nav :hover{
     font-weight: bold;
 }
 .line-up-img{
-    display: inline-flex;
+    display: inline;
     padding: 100px;
     margin-top: -50px;
-    height: 280px;
+    height: 480px;
     width: 100%;
 }
 .background-sub{
@@ -153,25 +153,25 @@ footer .social img{
 /*About Us*/
 .hero-middle h3{
     font-family: Chewy;
-    font-size: 6em;
-    color: #283618;
+    font-size: 7em;
+    color: #606c38;
     text-align: center;
-    margin-top: -400px;
+    margin-top: -300px;
 }
 #hero3-img{
     width: 100%;
-    height: 500px;
+    height: 700px;
 }
 /*contact*/
 #con{
-    margin-top: -100px;
+    margin-top: 10px;
     display: block;
     font-size: 2em;
 }
-#image{
-    display: block;
-    margin-top: -1000px;
-    width: 900px;
+#hero4-img{
+    width: 100%;
+    height: 700px;
+    margin-top: 500px;
 }
 .con1{
     margin-top: -900px;
@@ -179,5 +179,5 @@ footer .social img{
 }
 #form{
     padding: 15px;
-    text-align: left;
+    text-align: center;
 }
